@@ -1,0 +1,7 @@
+services:
+  
+  java-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: java-container
